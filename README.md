@@ -1,4 +1,2 @@
 # MovieApplication
-# MovieApplication
-# MovieApplication
-# movie-app
+In this we have implemented using MongoDb the same movie app.
