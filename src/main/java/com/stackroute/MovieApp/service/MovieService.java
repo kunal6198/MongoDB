@@ -15,6 +15,7 @@ public interface MovieService {
 
   public List<Movie> getAllMovie() ;
 
+
   public Optional<Movie> getById(int id) throws MovieNotFoundException ;
 
   public boolean deleteById(int id) throws MovieNotFoundException;

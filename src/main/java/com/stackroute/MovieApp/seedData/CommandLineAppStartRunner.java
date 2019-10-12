@@ -5,6 +5,7 @@ import com.stackroute.MovieApp.exception.MovieAlreadyExistsException;
 import com.stackroute.MovieApp.service.MovieService;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
+
 import java.util.logging.Logger;
 
 public class CommandLineAppStartRunner implements CommandLineRunner {

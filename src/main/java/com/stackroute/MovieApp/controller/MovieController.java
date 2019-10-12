@@ -77,7 +77,9 @@ public class MovieController {
       logger.info("Movie = " + movie + " Id" + id);
       logger.debug("Inside deleteMovie()");
       movieService.deleteById(id);
+
       return new ResponseEntity<Movie>(movie, HttpStatus.OK);
+
     } catch (MovieNotFoundException e) {
       logger.error("The Movie does't exist");
       return new ResponseEntity<String>("Cannot be deleted because movie doesn't exist", HttpStatus.CONFLICT);
